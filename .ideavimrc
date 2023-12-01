@@ -16,10 +16,16 @@ set incsearch
 set relativenumber
 set surround (vim)
 
+Plug 'terryma/vim-multiple-cursors'
+map mc <A-n>
+map mx <A-x>
+map mp <A-p>
+
 "easy motion plugin
 "Plug 'easymotion/vim-easymotion'
 "ctrl + ; + findName"
 set easymotion
+
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
