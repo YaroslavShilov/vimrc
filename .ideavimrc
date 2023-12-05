@@ -103,7 +103,7 @@ map <space>km <Action>(ChangeKeymap)
 " nnoremap <c-l> :action NextTab<CR>
 
 
-" -- IDEA CHANGED SHORTCUTS -- "
+" -- IDE CHANGED SHORTCUTS -- "
 " Alt+n = File Open Actions > New > File
 " Alt+d = File > File Open Actions > New > Create new directory or package
 " Alt+l = Editor Tabs > Select Next Tab
@@ -120,6 +120,8 @@ map <space>km <Action>(ChangeKeymap)
 " Alt+right = Editor Tabs > Stretch Editor to Right
 
 " -- SHORTCUTS used by VIM instead of IDEA -- "
+" go ideavim > settings and change these shortcuts' handler from IDE to VIM
 " Ctrl+;
 " Ctrl+Shift+;
 " Alt+D
+" Other shortcuts handled by IDE instead of VIM
