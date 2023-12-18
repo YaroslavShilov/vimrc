@@ -27,6 +27,7 @@ set incsearch
 
 " Show line Numbers from your cursor
 set relativenumber
+set number
 set surround (vim)
 
 Plug 'terryma/vim-multiple-cursors'
