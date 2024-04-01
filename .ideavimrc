@@ -48,7 +48,7 @@ map Q gq
 "i - insert mode
 "n - normal mode
 " jj - get out of insert mode
-inoremap jj <Esc>
+" inoremap jj <Esc>
 
 " -- page 1/2 up / down using alt + u / d
 nnoremap <a-d> <c-d>
@@ -70,6 +70,10 @@ map gD <Action>(GotoTypeDeclaration)
 map gi <Action>(GotoImplementation)
 map gb <Action>(Back)
 map gf <Action>(Forward)
+
+" -- Highlight 10 lines
+vmap <a-d> 10j
+vmap <a-u> 10k
 
 " --- Search
 map <space>ff <Action>(GotoFile)
