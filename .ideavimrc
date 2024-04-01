@@ -53,6 +53,9 @@ map Q gq
 " -- page 1/2 up / down using alt + u / d
 nnoremap <a-d> <c-d>
 nnoremap <a-u> <c-u>
+vmap <a-d> 10j
+vmap <a-u> 10k
+
 
 " -- swtich between windows
 nnoremap <a-w> <c-w>
@@ -71,9 +74,6 @@ map gi <Action>(GotoImplementation)
 map gb <Action>(Back)
 map gf <Action>(Forward)
 
-" -- Highlight 10 lines
-vmap <a-d> 10j
-vmap <a-u> 10k
 
 " --- Search
 map <space>ff <Action>(GotoFile)
