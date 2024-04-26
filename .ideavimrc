@@ -76,12 +76,10 @@ map gf <Action>(Forward)
 
 
 " --- Search
-map <space>ff <Action>(GotoFile)
-map <space>fa <Action>(GotoAction)
+map <space>sf <Action>(GotoFile)
+map <space>sa <Action>(GotoAction)
+map <space>se <Action>(SearchEverywhere)
 
-" --- Search result motion
-map <space>fn <Action>(NextOccurence)
-map <space>fp <Action>(PreviousOccurence)
 
 " --- Quick Info
 map qc <Action>(EditorContextInfo)
